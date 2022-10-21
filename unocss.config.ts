@@ -2,7 +2,7 @@ import {
   defineConfig,
   presetAttributify,
   presetIcons,
-  presetUno
+  presetUno,
 } from 'unocss'
 
 // @unocss-include
@@ -17,6 +17,6 @@ export default defineConfig({
     presetAttributify(),
     presetIcons({
       scale: 1.2,
-    })
-  ]
+    }),
+  ],
 })

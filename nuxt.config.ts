@@ -1,6 +1,6 @@
 export default defineNuxtConfig({
   typescript: {
-    shim: false
+    shim: false,
   },
   modules: [
     '@unocss/nuxt',
