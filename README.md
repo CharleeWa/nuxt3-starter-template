@@ -1,2 +1,4 @@
-# hello-nuxt
-用来学习 Nuxt api、生态链。
+# Nuxt 3 + To Do List
+
+> 用来学习 Nuxt Api、生态链
+
