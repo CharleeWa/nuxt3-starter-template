@@ -8,9 +8,18 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@unocss/nuxt": "^0.45.30",
     "commitizen": "^4.2.5",
     "cz-emoji-chinese": "^0.3.1",
     "nuxt": "3.0.0-rc.12"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "vite",
+        "webpack"
+      ]
+    }
   },
   "config": {
     "commitizen": {
