@@ -4,9 +4,9 @@ useHead({ title: 'about' })
 
 <template>
   <div>
+    <h1>About page</h1>
     <NuxtLink to="/">
-      Home
+      Home page
     </NuxtLink>
-    <AppAlert>about</AppAlert>
   </div>
 </template>
