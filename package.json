@@ -1,5 +1,6 @@
 {
   "private": true,
+  "packageManager": "pnpm@7.14.0",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -11,8 +12,10 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.27.0",
+    "@iconify-json/openmoji": "^1.1.11",
+    "@iconify-json/simple-icons": "^1.1.32",
     "@nuxt/content": "^2.2.1",
-    "@unocss/nuxt": "^0.45.30",
+    "@unocss/nuxt": "^0.46.1",
     "commitizen": "^4.2.5",
     "cz-emoji-chinese": "^0.3.1",
     "eslint": "^8.25.0",

@@ -5,7 +5,11 @@ const foo = useFoo()
 
 <template>
   <div>
-    <h1>Home page</h1>
+    <div class="i-simple-icons:facebook" />
+    <div class="i-openmoji:1st-place-medal" />
+    <h1>
+      Home page
+    </h1>
     <NuxtLink to="/about">
       About page
     </NuxtLink>

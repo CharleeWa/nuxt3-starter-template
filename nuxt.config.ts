@@ -9,7 +9,4 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     '@nuxt/content',
   ],
-  content: {
-    // https://content.nuxtjs.org/api/configuration
-  },
 })
