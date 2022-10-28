@@ -1,5 +1,6 @@
 <script setup lang="ts">
 useHead({ title: 'home' })
+const foo = useFoo()
 </script>
 
 <template>
@@ -8,5 +9,6 @@ useHead({ title: 'home' })
     <NuxtLink to="/about">
       About page
     </NuxtLink>
+    <div>{{ foo }}</div>
   </div>
 </template>
