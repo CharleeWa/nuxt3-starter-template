@@ -7,5 +7,9 @@ export default defineNuxtConfig({
   },
   modules: [
     '@unocss/nuxt',
+    '@nuxt/content',
   ],
+  content: {
+    // https://content.nuxtjs.org/api/configuration
+  },
 })
