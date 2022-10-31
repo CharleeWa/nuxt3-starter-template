@@ -9,4 +9,14 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     '@nuxt/content',
   ],
+  vite: {
+    server: {
+      proxy: {
+        '/api': {
+          target: '',
+          changeOrigin: true,
+        },
+      },
+    },
+  },
 })
