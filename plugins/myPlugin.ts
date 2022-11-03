@@ -1,4 +1,4 @@
-export default defineNuxtPlugin((nuxtApp) => {
+export default defineNuxtPlugin(() => {
   // eslint-disable-next-line no-console
-  console.log(nuxtApp)
+  console.log('')
 })

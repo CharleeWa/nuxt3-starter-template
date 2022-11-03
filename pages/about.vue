@@ -1,5 +1,8 @@
 <script setup lang="ts">
 useHead({ title: 'about' })
+definePageMeta({
+  middleware: ['auth'],
+})
 </script>
 
 <template>
