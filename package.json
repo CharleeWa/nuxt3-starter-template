@@ -19,7 +19,7 @@
     "commitizen": "^4.2.5",
     "cz-emoji-chinese": "^0.3.1",
     "eslint": "^8.25.0",
-    "nuxt": "3.0.0-rc.12"
+    "nuxt": "3.0.0-rc.13"
   },
   "pnpm": {
     "peerDependencyRules": {
