@@ -1,4 +1,3 @@
 export default defineNuxtPlugin(() => {
-  // eslint-disable-next-line no-console
-  console.log('')
+  console.log('这是自注册的插件')
 })
