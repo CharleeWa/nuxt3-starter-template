@@ -1,11 +1,13 @@
 <script setup lang="ts">
-useHead({ title: 'home' })
+definePageMeta({
+  layout: 'products',
+})
+const { id } = useRoute().params
 </script>
 
 <template>
   <div>
-    <h2>Home</h2>
-
+    <p>Product details for {{ id }}</p>
     <p>
       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
       Consectetur sunt laboriosam, dignissimos quaerat error nemo velit,
@@ -14,13 +16,3 @@ useHead({ title: 'home' })
   </div>
 </template>
 
-<style scoped>
-h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-p {
-  margin: 20px 0;
-}
-</style>
