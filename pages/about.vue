@@ -3,6 +3,11 @@ useHead({ title: 'about' })
 definePageMeta({
   middleware: ['auth'],
 })
+
+// const { data } = await useFetch('/api/ninja?name=mario', {
+//   method: 'post',
+//   body: { age: 30 },
+// })
 </script>
 
 <template>
@@ -20,6 +25,8 @@ definePageMeta({
       Consectetur sunt laboriosam, dignissimos quaerat error nemo velit,
       beatae doloribus officiis, libero sequi vero aut illo perferendis praesentium distinctio illum dicta asperiores.
     </p>
+
+    <!-- <div>{{ data }}</div> -->
   </div>
 </template>
 

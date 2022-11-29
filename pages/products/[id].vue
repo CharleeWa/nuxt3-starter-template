@@ -15,7 +15,7 @@ if (!product.value)
 <template>
   <div>
     <Head>
-      <Title>Nuxt | {{ product.Title }}</Title>
+      <Title>Nuxt | {{ product.title }}</Title>
       <Meta name="description" :content="product.description" />
     </Head>
     <ProductDetails :product="product" />
