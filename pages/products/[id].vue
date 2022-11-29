@@ -14,6 +14,10 @@ if (!product.value)
 
 <template>
   <div>
+    <Head>
+      <Title>Nuxt | {{ product.Title }}</Title>
+      <Meta name="description" :content="product.description" />
+    </Head>
     <ProductDetails :product="product" />
   </div>
 </template>
